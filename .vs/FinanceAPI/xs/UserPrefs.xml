@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{2A783247-1DD3-4AE2-9BB4-02ACF1C05F8C}|Default">
+  <MonoDevelop.Ide.ItemProperties.FinanceAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinanceAPI/Controllers/FinanceController.cs">
+    <Files>
+      <File FileName="FinanceAPI/Controllers/FinanceController.cs" Line="29" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FinanceAPI" expanded="True">
+            <Node name="FinanceAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="FinanceController.cs" selected="True" />
+              </Node>
+              <Node name="Model" expanded="True" />
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

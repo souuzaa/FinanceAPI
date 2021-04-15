@@ -24,7 +24,7 @@ namespace FinanceAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("list")]
         public IEnumerable<Stock> GetList()
         {
             var rng = new Random();
