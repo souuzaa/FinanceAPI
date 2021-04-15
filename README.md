@@ -5,9 +5,9 @@ Sample aplication for test API principles
 ## METHODS
 ### List watchlist
 - list
-``
+```
 ex: https://localhost:5001/finance/watchlist
-``
+```
 ### List profiles (only for test)
 - profiles
 ```
