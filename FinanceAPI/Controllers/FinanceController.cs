@@ -17,6 +17,8 @@ namespace FinanceAPI.Controllers
             "APPL", "MSFT", "AMZN", "FDX"
         };
 
+        private static List<Profile> _listProfiles = new List<Profile>();
+
         private readonly ILogger<FinanceController> _logger;
 
         public FinanceController(ILogger<FinanceController> logger)
@@ -24,7 +26,7 @@ namespace FinanceAPI.Controllers
             _logger = logger;
         }
 
-        [HttpGet("list")]
+        [HttpGet("watchlist")]
         public IEnumerable<Stock> GetList()
         {
             var rng = new Random();
@@ -35,6 +37,43 @@ namespace FinanceAPI.Controllers
                 Ticker = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
+        }
+
+        //only for test
+        [HttpGet("profiles")]
+        public IEnumerable<Profile> GetAllProfile()
+        {
+            return _listProfiles;
+        }
+
+        [HttpGet("profile/{id}")]
+        public Profile GetProfile(int id)
+        {
+            return _listProfiles.Where(u => u.ID.Equals(id)).FirstOrDefault();
+        }
+
+        [HttpGet("profile/{name}/{city}")]
+        public bool AddProfile(string name, string city)
+        {
+            try
+            {
+                var item = new Profile()
+                {
+                    ID = _listProfiles.Count + 1,
+                    Name = name,
+                    City = city
+                };
+
+                _listProfiles.Add(item);
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex.ToString());
+            }
+
+            return false;
         }
     }
 }

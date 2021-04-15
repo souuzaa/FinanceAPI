@@ -36,3 +36,4 @@
 /Users/rafaelpinto/Projects/FinanceAPI/FinanceAPI/obj/Debug/netcoreapp3.1/FinanceAPI.dll
 /Users/rafaelpinto/Projects/FinanceAPI/FinanceAPI/obj/Debug/netcoreapp3.1/FinanceAPI.pdb
 /Users/rafaelpinto/Projects/FinanceAPI/FinanceAPI/obj/Debug/netcoreapp3.1/FinanceAPI.genruntimeconfig.cache
+/Users/rafaelpinto/Projects/FinanceAPI/FinanceAPI/bin/Debug/netcoreapp3.1/mono_crash.11a6748113.0.json
