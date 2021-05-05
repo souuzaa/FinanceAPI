@@ -4,6 +4,58 @@
     "/Users/rafaelpinto/Projects/FinanceAPI/FinanceAPI/FinanceAPI.csproj": {}
   },
   "projects": {
+    "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/Finance.ApiModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/Finance.ApiModels.csproj",
+        "projectName": "Finance.ApiModels",
+        "projectPath": "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/Finance.ApiModels.csproj",
+        "packagesPath": "/Users/rafaelpinto/.nuget/packages/",
+        "outputPath": "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rafaelpinto/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/Users/rafaelpinto/Projects/FinanceAPI/FinanceAPI/FinanceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +77,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/Finance.ApiModels.csproj": {
+                "projectPath": "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/Finance.ApiModels.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

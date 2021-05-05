@@ -6,6 +6,11 @@
 
 
   <ItemGroup>
-    <Folder Include="Model\" />
+    <ProjectReference Include="..\Finance.ApiModels\Finance.ApiModels.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="mono_crash.11a6748113.0.json" />
   </ItemGroup>
 </Project>

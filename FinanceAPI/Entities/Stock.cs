@@ -1,5 +1,5 @@
 ﻿using System;
-namespace FinanceAPI.Model
+namespace FinanceAPI.Entities
 {
     public class Stock
     {

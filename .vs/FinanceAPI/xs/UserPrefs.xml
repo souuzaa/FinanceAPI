@@ -1,20 +1,25 @@
-﻿<Properties StartupConfiguration="{2A783247-1DD3-4AE2-9BB4-02ACF1C05F8C}|Default">
+﻿<Properties StartupConfiguration="{923210D1-1EAD-47CF-949C-7590648F1B70}|Default">
   <MonoDevelop.Ide.ItemProperties.FinanceAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinanceAPI/Controllers/FinanceController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Profile.Api/Controllers/SaveProfileController.cs">
     <Files>
-      <File FileName="FinanceAPI/Controllers/FinanceController.cs" Line="49" Column="31" />
-      <File FileName="FinanceAPI/Model/Profile.cs" Line="10" Column="27" />
+      <File FileName="Profile.Api/Controllers/SaveProfileController.cs" Line="34" Column="1" />
+      <File FileName="Profile.Api/Services/ICreateProfileService.cs" Line="5" Column="61" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinanceAPI" expanded="True">
-            <Node name="FinanceAPI" expanded="True">
+            <Node name="Finance.ApiModels" expanded="True" />
+            <Node name="Profile.Api" expanded="True">
               <Node name="Controllers" expanded="True">
-                <Node name="FinanceController.cs" selected="True" />
+                <Node name="SaveProfileController.cs" selected="True" />
               </Node>
-              <Node name="Model" expanded="True" />
-              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Factories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Watchlist.Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -23,8 +28,11 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Profile.Api PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/rafaelpinto/Projects/FinanceAPI/Profile.Api/Controllers/SaveProfileController.cs" relfile="Profile.Api/Controllers/SaveProfileController.cs" line="29" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

@@ -1,9 +1,9 @@
 ﻿using System;
-namespace FinanceAPI.Model
+namespace FinanceAPI.Entities
 {
     public class Profile
     {
-        public int ID { get; set; }
+        public int? ID { get; set; }
 
         public string Name { get; set; }
 

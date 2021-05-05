@@ -1,0 +1,10 @@
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/bin/Debug/netcoreapp3.1/Finance.ApiModels.deps.json
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/bin/Debug/netcoreapp3.1/Finance.ApiModels.dll
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/bin/Debug/netcoreapp3.1/Finance.ApiModels.pdb
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/obj/Debug/netcoreapp3.1/Finance.ApiModels.csprojAssemblyReference.cache
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/obj/Debug/netcoreapp3.1/Finance.ApiModels.AssemblyInfoInputs.cache
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/obj/Debug/netcoreapp3.1/Finance.ApiModels.AssemblyInfo.cs
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/obj/Debug/netcoreapp3.1/Finance.ApiModels.csproj.CoreCompileInputs.cache
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/obj/Debug/netcoreapp3.1/Finance.ApiModels.dll
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/obj/Debug/netcoreapp3.1/Finance.ApiModels.pdb
+/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/bin/Debug/netcoreapp3.1/Finance.ApiModels.xml

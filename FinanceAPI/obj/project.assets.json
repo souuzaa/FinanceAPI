@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Finance.ApiModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Finance.ApiModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Finance.ApiModels.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Finance.ApiModels/1.0.0": {
+      "type": "project",
+      "path": "../Finance.ApiModels/Finance.ApiModels.csproj",
+      "msbuildProject": "../Finance.ApiModels/Finance.ApiModels.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Finance.ApiModels >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/rafaelpinto/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/Finance.ApiModels.csproj": {
+              "projectPath": "/Users/rafaelpinto/Projects/FinanceAPI/Finance.ApiModels/Finance.ApiModels.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
